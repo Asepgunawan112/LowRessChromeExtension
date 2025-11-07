@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Lowress Tab Switcher",
+  "version": "1.0",
+  "description": "Switches to YouTube when a tab is closed.",
+  "permissions": [
+    "tabs"
+  ],
+  "icons":{
+    "48": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Lowress Tab Switcher",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  }
+}
